@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Family</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h1, h2{
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            text-align: left;
+        }
+        .credits{
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline;
+            font-weight: bold;
+            word-break: 1em;
+            text-align: right;
+        }
+        a {
+            text-decoration: none;
+        }
+        p{
+            line-height: 1.4em;
+            text-align: justify;
+        }
+
+        .one{
+            background-color: #eeeeee;
+            color: #666666;
+            text-shadow: 1px 1px 0px #000000;
+        }
+        .two {
+            background-color: #dddddd;
+            color: #666666;
+            text-shadow: 1px 1px 3px #666666;
+        }
+        .three {
+            background-color: #cccccc;
+            color: #ffffff;
+            text-shadow: 2px 2px 7px #111111;
+        }
+        .four {
+            background-color: #bbbbbb;
+            color: #cccccc;
+            text-shadow: -1px -2px #666666;
+        }
+        .five {
+            background-color: #aaaaaa;
+            color: #ffffff;
+            text-shadow: -1px -1px #666666;
+        }
+        input {
+            padding: 6px 12px 6px 12px;
+            border: 1px solid #201102;
+            color: #ffffff;
+        }
+        input.submit:hover{
+            background-color: #141311;
+        }
+        input.submit:active{
+            background-color: chocolate;
+        }
+        input.email{
+            color: #cccccc;
+        }
+        input.email:focus{
+            color: #665544;
+        }
+    </style>
+</head>
+<body>
+    <h1>Briards</h1>
+    <p class="credits">by Ivy Duckett</p>
+    <p class="intro">The <a class="breed" href="http://en.wikipedia.org/wiki/
+        Briard">briard</a>. or berger de brie. is a large breed of dog traditionally used as a herder and guardian of sheep....</p>
+
+    <h4>Drop SHADOW</h4>
+    <div class="one">
+        <p>The value of this property is
+            quite complicated because it</p>
+    </div>
+
+    <div class="two">
+        <p>The value of this property is
+            quite complicated because it</p>
+    </div>
+    <div class="three">
+        <p>The value of this property is
+            quite complicated because it</p>
+    </div>
+    <div class="four">
+        <p>The value of this property is
+            quite complicated because it</p>
+    </div>
+    <div class="five">
+        <p>The value of this property is
+            quite complicated because it</p>
+    </div>
+
+    <input type="email" placeholder="enter email address">
+    <input type="button" value="submit">
+</body>
+</html>
