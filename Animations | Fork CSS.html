@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations | Fork CSS</title>
+    <style>
+        #gfg {
+            animation-name: color;
+            animation-duration: 25s;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-family: Times New Roman;
+        }
+
+        #geeks {
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+            color : #090;
+            padding-bottom: 5px;
+        }
+
+        #geeks1 {
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        @keyframes color{
+            0% {
+                background-color: rgb(114, 26, 26);
+            }
+            50% {
+                background-color: orange;
+            }
+
+            100% {
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>
+        CSS Animations is a technique to change the appearance and behavior of various elements in web pages. It is used to control the elements by changing their motions or display. It has two parts, one which contains the CSS properties which describe the animation of the elements and the other contains certain keyframes which indicate the animation properties of the element and the specific time intervals at which those have to occur. 
+    </p>
+    <p>
+        The @keyframes rule: Keyframes are the foundations with the help of which CSS Animations works. They define the display of the animation at the respective stages of its whole duration. For example: In the following code, the paragraph changes its color with time. At 0% completion, it is red, at 50% completion it is of orange color and at full completion i.e. at 100%, it is brown. 
+    </p>
+    <p>This example describes the CSS Animation using the @keyframe rule.</p>
+
+
+    <div class="gfg">
+        <div id="geeks">Ashish
+            <div class="geeks1">
+                A computer science portal for Ashish
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Animation Properties using animation-duration property.
+    </title>
+    <style>
+        #gfg1 {
+            animation-name: text;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        #geek1{
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+            color: #090;
+            padding-bottom: 5px;
+        }
+        #geek2{
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        @keyframes text {
+            from {
+                margin-top: 400px;
+            }
+            to {
+                margin-top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>animation-name It is used to specify the name of the @keyframes describing the animation.</p>
+    <p>animation-name: animation_name</p>
+    <p>animation-duration: It is used to specify the time duration it takes animation to complete one cycle.</p>
+    <p>It is used to specify the time duration it takes animation to complete one cycle.</p>
+    <div id="gfg1">
+        <div id="geek1">
+            Ashish
+        </div>
+        <div id="geek2">
+            A computer science portal for Ashish
+        </div>
+    </div>
+</body>
+</html>

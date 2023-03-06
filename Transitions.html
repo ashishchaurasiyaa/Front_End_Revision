@@ -1,0 +1,66 @@
+<!-- transition-property: This property allows you to select the CSS properties which you want to animate during transition(change). Syntax: -->
+<!-- transition-property: none | all | property | property1,
+property2, ..., propertyN; -->
+<!-- Values -->
+<!-- none is used to specify that no property should be selected.
+all is used to specify all the properties to be selected, though not all properties are animate-able, only the properties which are animate-able will be influenced.
+We can specify a single property or a set of comma separated properties property1, property2, ..., propertyN. -->
+
+<!-- transition-duration: This property allows you to determine how long it will take to complete the transition from one CSS property to the other. Syntax: -->
+
+<!-- transition-duration: time; This property allows you to determine how long it will take to complete the transition from one CSS Property to the other Syntax: -->
+
+<!-- transition-duration: time;-->
+
+<!-- Here, time can be in seconds(s) or milliseconds(ms), you should use 's' or 'ms' after the number (without quotes). -->
+
+<!-- transition-timing-function: This property allows you to determine the speed of change and the manner of change, during the transition. Like, the change should be fast at the beginning and slow at the end, etc. Syntax: -->
+
+<!-- transition-timing-function: ease|ease-in|ease-out|ease-in-out|linear|
+step-start|step-end; -->
+
+<!-- Note, there are other values which this transition-timing-function can take, only the most frequent and simple are mentioned here.
+transition-delay: This property allows you to determine the amount of time to wait before the transition actually starts to take place. Syntax: -->
+
+<!-- transition-delay: time; -->
+
+<!-- Here, again, time can be in seconds(s) or milliseconds(ms), and you should use 's' or 'ms' after the number (without quotes). -->
+<!-- The Shorthand Property-->
+
+<!-- Syntax: transition: (property name) | (duration) | (timing function) | (delay); -->
+
+<!-- The value is taken by are same as mentioned above. This property must be placed with other CSS properties, if any, of the initial state. You should use at least, property name and duration to get any animate-able effect. Also, the ordering of the values matters. The first value is of the property name, second for the duration and so on, as listed above. So, if only one number is mentioned, it will be taken up as duration, and not as a delay. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing property without using transitions</title>
+    <style>
+        h1{
+            color: green;
+            text-align: center;
+        }
+
+        div .one{
+            height: 150px;
+            width: 150px;
+            border: 1px dashed black;
+            margin: 0 auto;
+            background: #FFEBEE;
+        }
+
+        div.one:hover{
+            height: 300px;
+            width: 300px;
+            background: #BBDEFB;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ashish</h1>
+    <div class="one"></div>
+</body>
+</html>

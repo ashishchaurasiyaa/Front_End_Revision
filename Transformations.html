@@ -1,0 +1,55 @@
+<!-- transform: none|transform-functions|initial|inherit; -->
+<!-- Note: The transformations can be of 2-D or 3-D type. -->
+<!-- none: No transformation takes place.
+matrix(x, x, x, x, x, x): It specifies a matrix transformation of 2-D type. It takes 6 values.
+matrix3d(x, x, x, x, x, x, x, x, x): It specifies a matrix transformation of 3-D type. It takes 9 values.
+translate(x, y): It specifies a translation across the X and Y axes.
+translate3d(x, y, z): It specifies a translation across the X, Y, and Z axes.
+translateX(x): It specifies the translation across the X-axis only.
+translateY(y): It specifies the translation across the Y-axis only.
+translateZ(z): It specifies the translation across the Z-axis only.
+rotate(angle): It specifies the angle of rotation.
+rotateX(angle): It specifies the rotation along with the X-axis corresponding to the angle of rotation.
+roatateY(angle): It specifies the rotation along with the Y-axis corresponding to the angle of rotation.
+roteteZ(angle): It specifies the rotation along with the Z-axis corresponding to the angle of rotation.
+scale(x, y): It specifies the scale transformation along the X and Y axes.
+scale3d(x, y, z): It specifies the scale transformation along the X, Y, and Z axes.
+scaleX(x): It specifies the scale transformation along the X-axis.
+scaleY(y): It specifies the scale transformation along the Y-axis.
+scaleZ(z): It specifies the scale transformation along the Z-axis.
+scale3d(x, y, z): It specifies the scale transformation along the X, Y, and Z axes.
+skew(angle, angle): It specifies the skew transformation along the X and Y axes corresponding to the skew angles.
+skewX(angle): It specifies the skew transformation along with the X-axis corresponding to the skew angle.
+skewY(angle): It specifies the skew transformation along with the Y-axis corresponding to the skew angle.
+skewZ(angle): It specifies the skew transformation along with the Z-axis corresponding to the skew angle.
+perspective(x): It specifies the perspective of an element. Refer: Perspective property
+initial: It initializes the element to its default value.
+inherit: It inherits the value from its parent element. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformations | Fork CSS</title>
+    <style>
+        .main {
+            display: grid;
+            padding: 30px;
+            background-color: green;
+        }
+        .Ashish {
+            text-align: center;
+            font-size: 35px;
+            background-color: white;
+            color: green;
+            transform: matrix(1, 0, -1, 1,0);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="Ashish">Ashish</div>
+    </div>
+</body>
+</html>
