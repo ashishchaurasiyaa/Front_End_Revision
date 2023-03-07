@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IE6 Box MODEL</title>
+    <style>
+        li {
+            display: inline;
+            margin-right: 20px;
+            padding: auto;
+        }
+        li.coming-soon {
+            display: none;
+            visibility: hidden;
+        }
+        p.one {
+            -moz-box-shadow: -5px -5px #777777;
+            -webkit-box-shadow: -5px -5px #777777;
+            box-shadow: -5px -5px #777777;}
+        p.two {
+            -moz-box-shadow: 5px 5px 5px #777777;
+            -webkit-box-shadow: 5px 5px 5px #777777;
+            box-shadow: 5px 5px 5px #777777;}
+        p.three {
+            -moz-box-shadow: 5px 5px 5px 5px #777777;
+            -webkit-box-shadow: 5px 5px 5px 5px #777777;
+            box-shadow: 5px 5px 5px 5px #777777;}
+
+        .rounded{
+            border: 5px solid #cccccc;
+            padding: 20px;
+            width: 275px;
+            text-align: center;
+            border-radius: 10px;
+            -mox-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Article Inline/Block Change display -->
+    <ul>
+        <li>Home</li>
+        <li>Products</li>
+        <li class="coming-soon">Services</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+    <!-- Article CSS3: Border Images border-image -->
+    <p class="one"></p><br>
+    <p class="two"></p><br>
+    <p class="three"></p><br>
+
+    <!-- Article CSS3: Rounded Corners border-radius -->
+<br><br>
+    <p class="rounded">
+        Pet Sounds featured a number of unconventional
+        instruments such as bicycle bells, buzzing
+        organs, harpsichords, flutes, Electro-Theremin,
+        dog whistles, trains, Hawaiian-sounding string
+        instruments, Coca-Cola cans and barking dogs
+    </p>
+</body>
+</html>
