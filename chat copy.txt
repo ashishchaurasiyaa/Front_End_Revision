@@ -1,0 +1,19 @@
+(09:17) BOT: Hi great to see your interest in applying for a role at Fluid AI! []
+(09:17) BOT: I am going to ask you a few quick questions  []
+(09:17) BOT: How did you hear about the position? []
+(09:17) YOU: LinkedIn 
+(09:17) BOT: What is your full name ? []
+(09:17) YOU: Ashish Kumar Chaurasiya 
+(09:17) BOT: What is your mobile number? []
+(09:17) YOU: 9005847092 
+(09:17) BOT: Alright, we are progressing well, what is your email id ? []
+(09:17) YOU: chaurasiya1ashish@gmail.com 
+(09:17) BOT: What role are you applying for ? []
+(09:18) YOU: Python Developer and Data Scientist 
+(09:18) BOT: Hi great to see your interest in applying for a role at Fluid AI as a Python Developer! []
+(09:18) BOT: What kind of role are you looking for with us ? []
+(09:18) YOU: Full Time 
+(09:18) BOT: What things are you passionate about specifically in tech ?
+(There is no right answer here, so feel free to put whats on your mind in the answer. Please try and be specific about your passions and not generic. Answers can be long) []
+(09:18) YOU: I am currently working as a Software Engineer 
+(09:18) BOT: Okay great, now within this passion area tell us what exactly have you done. From courses, to projects (personal included), to research! Please share relevant links to the same where possible. (Answers can be long) []

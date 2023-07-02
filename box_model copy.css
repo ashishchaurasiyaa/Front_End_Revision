@@ -1,0 +1,22 @@
+.box{
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: auto;
+    height: auto;
+    border: 5px solid black;
+    display: block;
+}
+.box_alternate{
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}

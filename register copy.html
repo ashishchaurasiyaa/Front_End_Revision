@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <h2>All Fields are Mandatory</h2>
+    <form action="thankyou.html" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name" required><br>
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="mail" placeholder="Enter Email" required> <br>
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age" placeholder="Enter Age" required>
+        <h3>Are You Interested In Dating</h3>
+        <label for="dat">Yes</label>
+        <input type="radio" name="dating" id="dat" value="">
+        <label for="dat1">No</label>
+        <input type="radio" name="dating" id="dat1" value="">
+        <h3>Your Expections like:</h3>
+        <select class="" name="expe" id="">
+            <option value="ashish">Ashish</option>
+            <option value="aman">Aman</option>
+            <option value="shubham">Shubham</option>
+            <option value="atul">Atul</option>
+        </select>
+        <h3>How many marraiges you want:</h3>
+        <select class="" name="nom" id="">
+            <option value="One">1</option>
+            <option value="Two">2</option>
+            <option value="Three">3</option>
+            <option value="Four">4</option>
+            <option value="Five">5</option>
+        </select>
+        <h3>
+            Are You Heavy Alocholic:
+        </h3>
+        <input type="checkbox" name="Alocholic" value="yes"> Yes
+        <input type="checkbox" name="Alocholic" value="no"> No
+        <input type="checkbox" name="Alocholic" value="week-end">Only on week-ends
+        <h3>
+            Your Preferences and Extra Information
+        </h3>
+        <textarea name="pref" cols="80" rows="8"></textarea>
+        <input type="submit" name="" value="Register">
+    </form>
+</body>
+</html>
