@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Float vs Clear</title>
 </head>
+<style>
+    /* .container{
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+        overflow: auto;
+    } */
+    img1 {
+        float: right;
+        height: 250px;
+    }
+
+    img2 {
+        float: right;
+        height: 250px;
+        clear: right;
+    }
+    .item{
+        width: 200px;
+        height: 200px;
+        margin: 2px;
+        background-color: aquamarine;
+        border: 1px solid;
+        float: left;
+    }
+    .box{
+        border: 1px solid black;
+    }
+    </style>
+
 <body>
-    
+    <div class="container">
+        <img id="img1" src="Maharana_Pratap_By_Surendra_Singh_Shaktawat.jpg" alt="Reload">
+        <img id="img2" src="Bhagat_Singh_1929.jpg" alt="Reload">
+        <p>Pratap Singh I, popularly known as Maharana Pratap (c. 9 May 1540 – 19 January 1597), was a Hindu Rajput king
+            of Mewar from the Sisodia dynasty. He fought several major battles against Akbar including the Battle of
+            Haldighati in 1576 to resist the expansionist policy of the Mughal empire. Pratap became a folk hero for his
+            military resistance through guerrilla warfare which proved inspirational for later rebels against Mughals.
+            "Rana Pratap's defiance of the mighty Mughal empire, almost alone and unaided by the other Rajput states,
+            constitute a glorious saga of Rajput valour and the spirit of self sacrifice for cherished principles. Rana
+            Pratap's methods of guerrilla warfare was later elaborated further by Malik Ambar, the Deccani general, and
+            by Emperor Shivaji"
+        </p>
+    </div>
+    <div class="box">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        
+    </div>
 </body>
+
 </html>

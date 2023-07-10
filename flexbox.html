@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<style>
+    .container{
+        background-color: beige;
+        border: 5px solid;
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+        /* flex-direction: column-reverse; */
+        /* note ager flex driction  row hai main horizontal hoga ager colkumn hai to  vertical hoga */
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        height: 1200px;
+        justify-content: start;
+        /* justify-content:first baseline; */
+        /* justify-content: center;
+        align-items: center; */
+        align-content: center;
+        align-items: start;
+        /* flex-basis: auto; using for dimensions */
+        /* align -self  */
+        
+
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+        border: 2px solid brown;
+        margin: 2px;
+        padding: 2px;
+    }
+    #box1 {
+        background-color: aqua;
+        /* order: 500;
+        flex-grow: 1; */
+        align-self: center;
+        /* flex-shrink: 4; */
+    }
+    #box2 {
+        background-color: yellow;
+        flex-grow: 1;
+
+    }
+    #box3 {
+        background-color: red;
+        flex-grow: 1;
+
+    }
+    #box4 {
+        background-color: black;
+        /* flex-grow: 1; */
+        flex-basis: 400px;
+
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Box1</div>
+        <div class="box" id="box2">Box2</div>
+        <div class="box" id="box3">Box3</div>
+        <div class="box" id="box4">Box4</div>
+
+    </div>
+</body>
+</html>
