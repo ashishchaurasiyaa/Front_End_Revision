@@ -1,0 +1,52 @@
+<!-- JavaScript Display Possibilities -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Output</title>
+</head>
+<body>
+    <div>
+        <h2>JavaScript Dispaly Possibilities</h2>
+        <p>JavaScript can "Display" data in different ways:</p>
+        <ul>
+            <li>Writing into an HTML element, using innerHTML</li>
+            <li>Writing into the HTML output using document.write().</li>
+            <li>Writing into an alert box, using window.alert().</li>
+            <li>Writing into the browser console, using console.log().</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Using innerHTML</h2>
+        <p>
+            To access an HTML element, JavaScript can use the document.getElementById(id) method.
+
+        </p>
+        <p>The id attribute defines the HTML element. The Inner HTml property defines the HTML content:</p>
+        <p id="demo">
+
+        </p>
+    </div>
+    <div>
+        <h2>using document.write()</h2>
+        <p>for testing purposes, it is convenient to use document,write()</p>
+        <p>
+            Using document.write() after an HTML documet is loaded, will deleted all existing HTMl
+        </p>
+        <button type="button" onclick="document.write(5+6)">Try it</button>
+    </div>
+    <div>
+        <h2>Using window.alert()</h2>
+        <h1>I am using window alert function</h1>
+    </div>
+    <h2>The window.print() Method</h2>
+    <p>Click the button to print the current page.</p>
+    <button onclick="window.print()">Print this page</button>
+    <script>
+        document.getElementById("demo").innerHTML= 5+6;
+        document.write(6+6);
+        window.alert(7+7);
+    </script>
+</body>
+</html>
