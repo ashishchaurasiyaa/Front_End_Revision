@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bind">
+        <h2>Explain call(), apply(), and bind() methods in JavaScript</h2>
+        <ul>
+            <h2>This Keyword</h2>
+            <li>This keyword refers to an object Which object depends on how this is being invoked (used or called)</li>
+            <li> this refers to the global object, In a function, in strict mode, this is undefined,In an event, this refers to the element that received the event,Methods like call(), apply(), and bind() can refer this to any object.</li>
+          
+            <h2>Bind() Method</h2>
+             <li><p>
+                The bind() method creates a new function and when that new function is called it set this keyword to the first argument which is passed to the bind method, and if any other sequences of arguments preceding the first argument are passed to the bind method then they are passed as an argument to the new function when the new function is called.
+            </p></li>
+        </ul>
+    </div>
+    <div class="call">
+        <ul>
+            <h2>Call() Method:</h2>
+            <li>
+                <p>The call() method calls the function directly and sets this to the first argument passed to the call method and if any other sequences of arguemnts preceding the first argument are passed to the call method then they are passed as an argument to the function.</p>
+            </li>
+        </ul>
+    </div>
+    <div class="apply">
+        <ul>
+            <h2>Apply() Method:</h2>
+            <li><p>
+                The apply() method calls the function directly and sets this to the first argument passed to the apply method and if any other arguments provided as an array are passed to the call method then they are passed as an argument to the function.
+            </p></li>
+        </ul>
+    </div>
+    <script src="apply_callandbind.js"></script>
+</body>
+</html>
