@@ -150,9 +150,3 @@ const { courseInstructor: instructor } = course
 console.log(instructor)
 
 // APIs
-
-{
-    "name": "Hitesh",
-    "coursename": "js in hindi",
-
-}
