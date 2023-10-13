@@ -11,9 +11,9 @@
     //named IIFE
     console.log(`DB CONNECTED Two`)
 })();
-
+m
 // write in arrow function
-(() => {
+    (() => {
     console.log(`DB CONNECTED Two`)
 })();
 
