@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where To</title>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "Paragraph Changed";
+        }
+
+        function myDemo(){
+            document.getElementById('demo').innerHTML = "You can do it again and again."
+        }
+        document.getElementById('demo').innerHTML = 5 + 6;
+        document.write(5 + 6);
+    </script>
+</head>
+<body>
+    <h2>Demo JavaScript in Head</h2>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try It</button> <br> <br>
+    <button type="button" onclick="myDemo()">Prectic Now Again</button>
+
+    <button type="button" onclick="document.write(5 + 6)">Check Now</button>
+    <button onclick="window.print()">Print this page</button>
+
+
+
+</body>
+</html>
